@@ -2,7 +2,12 @@
 Small program to teach kids algebra
 
 To run the program you need to have python3 installed.
-Then run
+Before the first run, install dependencies by
+```
+pip install -r requirements.txt
+```
+
+Then you may run
 ```
 python main.py -h
 ```

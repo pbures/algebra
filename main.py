@@ -54,6 +54,7 @@ def get_operation(allowed_operations):
         if op in allowed_operations:
             return Operation(op)
 
+# This is still causing trouble, backspace does not work
 def input_with_timeout(prompt, timeout, timer=time.monotonic):
     sys.stdout.write(prompt)
     sys.stdout.flush()
